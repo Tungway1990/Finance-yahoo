@@ -1,5 +1,6 @@
 '''
-Extract stock data from yahoo finance
+Extract HK stock data from yahoo finance
+Stock Name, Price, Percentage change and High-Low
 '''
 
 from bs4 import BeautifulSoup
