@@ -1,3 +1,7 @@
+'''
+Extract stock data from yahoo finance
+'''
+
 from bs4 import BeautifulSoup
 from selenium import webdriver
 import re
@@ -9,6 +13,7 @@ start_time = time.time()
 chromeoptions = webdriver.ChromeOptions()
 chromeoptions.headless=True
 
+#Add any stock code you want
 watch_list=["0700","2888","0388",'0005','3690']
 raw=[]
 for i in range(len(watch_list)):
